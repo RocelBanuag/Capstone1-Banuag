@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+nav {
+	padding: 10px;
+	background-color: #EDDCD2;
+}
+
+ul a {
+	color: black;
+}
+
+/*.info {
+	background-color: #CB997E;
+	padding: 65px;
+	width: 50%;
+	border: 1px solid;
+	float: left;
+}
+
+.profile {
+	width: 50%;
+	border: 1px solid;
+	float: right;	
+}*/
+
+section {
+	background-color: #CB997E;
+}
+
+.profile img {
+	margin-top: 10px;
+	width: 40%;
+}
+
+
+section #Projects {
+	background-color: #A5A58D;
+	padding: 65px;
+}
+
+#gmap_canvas {
+	width: 60vh;
+	height: 100%;
+}
+
+footer {
+	background-color: #EDDCD2;
+	padding: 0;
+	margin-top:48px;
+	text-align: center;
+}
+
+
