@@ -21,11 +21,11 @@
 	<script src="https://kit.fontawesome.com/8131193adb.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<div class="container-fluid">
+
 	<!-- Navbar -->
-	<nav class="navbar navbar-expand-lg navbar navbar-light bg-light mb-5">
+	<nav class="navbar navbar-expand-lg navbar navbar-light bg-light mb-5 my-0">
 			<span class="navbar-brand mb-0 h1">RocelPortfolio.</span>
-	 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sample-nav">
+	 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sample-nav">Menu
 	 		<span class="navbar-toggler-icon"></span>
 	 	</button>
 
@@ -47,27 +47,31 @@
 	 	</div>
 	 </nav>
 
+	<div class="container">
+	
+
 	<!-- HOME -->
 	<div id="Home">
 		 <div class="row p-3">
-			 <div class="profile-container col-12 col-md-6 order-1 order-md-2 mb-0 p-3 text-center">
-			 	<img src="./image/rocel.jpg" id="image" class="img-fluid ml-5">
+			 <div class="profile-container col-12 col-md-6 order-1 order-md-2 text-center">
+			 	<img src="./image/rocel.jpg" id="image" class="img-fluid">
 			 </div>
 
 			 <!-- Portfolio Intro -->
 			 <div class="col-12 col-md-6 order-2 order-md-1 p-3">
-			 	<h4 class="mt-5 p-3 text-center">Hi! Welcome to My Portfolio</h4>
-			 	<h2 class="text-center">I'm Rocel Banuag</h2>
-			 	<p class="text-justify ml-5">I'm a web developper. I graduated at STI College Fairview with the  Bachelors degree of Science in Information Technology. 
+			 	<h4 class="mt-5 ml-5 text-left">Hi! Welcome to My Portfolio</h4>
+			 	<h2 class="ml-5 text-left">I'm Rocel Banuag</h2>
+			 	<p class="text-left ml-5">I'm a web developper. I graduated at STI College Fairview with the Bachelors degree of Information Technology. This is my simple website, feel free to visit. 
 				</p>
 			</div> 
 		 </div>
 	 </div>
+	 <hr>
 
 	 <!-- Projects -->
 	 <h2 class="text-center my-5">My Projects</h2>
 		<div id="Projects" class="row mt-5">
-			<div class="col-md-10 mx-auto">
+			<div class="col-md-10 mx-auto mb-5">
 				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 				  <ol class="carousel-indicators">
 				    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -105,12 +109,13 @@
 				</div>
 			</div>
 		</div>
+		<hr>
 
 		 <!-- Tools -->
-		 	<h3 class="text-center p-3 my-5">Tools</h3>
-		 	<div id="Tools" class="container">
+		 	<h3 class="text-center p-3 mt-3">Tools</h3>
+		 	<div id="Tools" class="container mb-5">
 		 		<div class="row"> 
-		 			<div class="card-group col-md-12 justify-content-center">
+		 			<div class="card-group col-md-12 justify-content-center mb-5">
 							  <div class="card">
 								    <img class="card-img-top img-fluid" src="./image/logo-html5.png">
 								    <div class="card-body">
@@ -155,37 +160,38 @@
 		 		</div>
 		 	</div>
 		 </div>
-		 	
+		 	<hr>
 		 	<!-- Contact -->
-		 	<h3 class="text-center my-5">Contact Me</h3>
+		 	<h3 class="text-center">Contact Me</h3>
 	 			<div class="row" id="Contact">
-          <div class="col-md-6 my-4">
+          <div class="col-md-6 mt-5">
             <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=casswyn%20building,%20quezon%20city,%20philippines&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" class="ml-2"></iframe>
           </div>
 
-          <div class="col-md-6 my-4">
+          <div class="col-md-6">
             <form id="form-info mx-3">
-              <div class="form-group mt-3">
-                <label>Fullname:</label>
-                <input type="text" name="name"  class="form-control">
-              </div>
+		              <div class="form-group mt-3">
+		                <label>Fullname:</label>
+		                <input type="text" name="name"  class="form-control">
+		              </div>
+		                    
+		              <div class="form-group">
+		                <label>Email:</label>
+		                <input type="email" name="email" class="form-control">
+		              </div>
                     
-              <div class="form-group">
-                <label>Email:</label>
-                <input type="email" name="email" class="form-control">
-              </div>
-                    
-                    <div class="form-group">
-                        <label>Message:</label>
-                        <textarea class="form-control"  rows="3">
-                        </textarea>
-                    </div>
-                    <button type="submit" class="btn btn-light btn-block">Send</button>
-                </form>
+                  <div class="form-group">
+                    <label>Message:</label>
+                    <textarea class="form-control"  rows="3">
+                    </textarea>
+                	</div>
+                		<button type="submit" class="btn btn-light btn-block">Send</button>
+              </form>
             </div>
         	</div>
+        	<!-- End of Main Container -->
         	</div>
-        
+        	
         <!-- Footer -->
       
         <footer class="footer p-2 bg-light">
