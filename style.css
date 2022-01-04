@@ -106,11 +106,14 @@ section #Projects {
 
 
 @media only screen and (max-width: 768px) {
-    width: 50%;
-    height: 50%;
-    margin-top: 2%;
-    border-radius: 10px;
-    border: 1px solid white;
+    div .row #image {
+	width: 50%;
+	height: 50%;
+	margin-top: 2%;
+	border-radius: 10px;
+	border: 1px solid white;
+	vertical-align: center;
+}
 }
 
 @media only screen and (max-width: 900px) {
